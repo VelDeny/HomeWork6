@@ -3,7 +3,7 @@ div h3 {
   color: red;
   text-transform: uppercase;
 }
-nav {
+header nav {
   border: 1px solid red;
 }
 nav a:link {
@@ -47,9 +47,8 @@ section {
 .film:nth-last-child(2) li:nth-last-child(2) {
   background-color: pink;
 }
+
 footer h5 {
   color: silver;
-  margin-top: 0;
-  margin-bottom: 0;
   text-align: center;
 }
