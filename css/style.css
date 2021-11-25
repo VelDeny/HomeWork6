@@ -1,23 +1,24 @@
 @import url(reset.css);
-div h3 {
+.title {
   color: red;
   text-transform: uppercase;
 }
 header nav {
   border: 1px solid red;
 }
-nav a:link {
+header a {
+  margin-left: 10px;
+}
+.navigate {
   color: green;
   text-decoration: none;
 }
-nav a:visited {
+.active,
+.navigate:hover {
   color: red;
 }
-nav a:hover {
+.navigate:hover:not(.active) {
   color: blue;
-}
-nav a:active {
-  color: red;
 }
 section {
   border: 2px solid pink;
@@ -25,14 +26,10 @@ section {
 .film {
   border: 2px solid green;
 }
-.film img {
+.cover {
   border-radius: 10px;
 }
-.film :nth-child(4) {
-  width: 200px;
-  height: 100px;
-}
-.film :nth-child(5) {
+.film p {
   font-weight: bold;
 }
 .range :first-child {
